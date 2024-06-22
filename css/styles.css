@@ -18,59 +18,59 @@ a {
   color: var(--primary-color);
 }
 
-  header {
+header {
+font-family: var(--fontfamilydefault);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.0;
+margin: 10px 5px;
+}
+
+body {
   font-family: var(--fontfamilydefault);
+  background-color: var(--webpagepurple);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.0;
-  margin: 10px 5px;
-  }
+  line-height: 1.6;
+  margin: 15px;
+}
 
-  body {
-    font-family: var(--fontfamilydefault);
-    background-color: var(--webpagepurple);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 15px;
-  }
+a:visited {
+  color: var(--visitedlinkcolor);
+}
 
-  a:visited {
-   color: var(--visitedlinkcolor);
-  }
-  
-  a:active {
-  color: var(--activelinkcolor);
-  }
+a:active {
+color: var(--activelinkcolor);
+}
 
-  a:hover, a:focus {
-    text-decoration: none;
-  }
+a:hover, a:focus {
+  text-decoration: none;
+}
 
-  .button {
-    border: none;
-    font-family: inherit;
-    background-color: var(--buttonbackgroundcolor);
-    color: var(--buttoncolor);
-    text-decoration: none;
-    padding: var(--paddingdefault);
-    border-radius: 3px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-    transition: opacity 0.2s;
-  }
+.button {
+  border: none;
+  font-family: inherit;
+  background-color: var(--buttonbackgroundcolor);
+  color: var(--buttoncolor);
+  text-decoration: none;
+  padding: var(--paddingdefault);
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  transition: opacity 0.2s;
+}
 
-  button:hover,
-  button:focus,
-  .button:hover,
-  .button:focus {
-    cursor: pointer;
-    opacity: 0.8;
-  }
-  
-  .button__secondary {
-    background-color: var(--secondarybuttonbackgroundcolor);
-    color: var(--secondarybuttoncolor);
-  }
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.button__secondary {
+  background-color: var(--secondarybuttonbackgroundcolor);
+  color: var(--secondarybuttoncolor);
+}
 
 p {
   display: block;
@@ -94,6 +94,7 @@ p {
   max-width: 700px;
   margin: 0 auto;
 }
+
 
 .page-footer {
       clear: both;
@@ -160,7 +161,11 @@ p {
 
 .contact-info {
   display: block;
-  font-style: italic;
+  text-align: center;
+}
+
+#contact-form {
+  font-weight: bold;
 }
 
 svg * {
