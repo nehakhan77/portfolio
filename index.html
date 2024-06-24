@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, intial scale=1.0">
+   <title>Neha Khan - Portfolio</title>
+   <link rel="shortcut icon" href="./img/headshot.png" type="image/x-icon">
+   <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+   <div class="header-container">
+      <header class="page-header">
+         <img src="img/NKlogo.png" alt="logo" class="page-header__logo">
+            <nav class="page-header__item">
+               <ul role="menubar" class="navigation-list">
+                  <li role="presentation">
+                     <a href="#introduction" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="#background" role="menuitem" class="navigation-list__item">About Me</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="#portfolio" role="menuitem" class="navigation-list__item">Work</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="#contact" role="menuitem" class="navigation-list__item">Contact</a>
+                  </li>
+               </ul>
+            </nav>
+      </header>
+   </div>
+   <!--Main Content-->
+   <section id="introduction">
+      <div class="profile" data-aos="fade-right">
+         <img src="img/headshot.png" width="150" height="50" class="profile__portrait" alt="A portrait of me">
+            <div class="profile__text">
+              <h1>Hello, my name is Neha Khan..<br> Full-Stack Web Developer</h1>
+               <p>
+                  I am a passionate and dedicated web developer who builds interactive websites that run across platforms
+                  and devices. I aim to create user interfaces that are captivating, accessible, and seamless. 
+               </p>
+               <a href="https://github.com/nehakhan77" class="button" target="_blank">Download Resume</a>
+               <a href="https://github.com/nehakhan77" class="button" target="_blank">GitHub</a>
+               <a href="https://www.linkedin.com/in/nehakhan1/" class="button" target="_blank">LinkedIn</a>
+            </div>
+         </div>
+   </section>
+   <section class="portfolio" id="portfolio" data-aos="fade-left">
+      <h1 class="name" data-aos="flip-right">My Projects</h1>
+         <div class="project_list">
+            <div class="grid_item">
+               <h2>Meet App</h2>
+               <div class="project_thumbnail">
+                   <img src="img/meet-app.png" alt="Image of Meet App UI">
+               </div>
+               <p>
+                   The Meet app is a serverless, progressive web application built on React using test-driven development techniques. It allows users to view upcoming events for a specific city, which are fetched with the use of the Google Calendar API.
+               </p>
+               <p>Technologies Used: React, Google Calendar API, AWS Lambda, Jest, Jest Cucumber, Puppeteer, Atatus.</p>
+               <a href="https://github.com/nehakhan77/meet_up" target="_blank" class="button">See project on GitHub</a>
+               <a href="https://nehakhan77.github.io/meet_up/" target="_blank" class="button">Live Site</a>
+           </div>
+
+           <div class="grid_item">
+               <h2>PokeDex App</h2>
+               <div class="project_thumbnail">
+                   <img src="img/pokedex-app.png" alt="Image of PokeDex App UI">
+               </div>
+               <p>
+                   The Pokedex app is a small and simple web application that allows you to look up information about a specific Pokemon including their height, weight, abiliities, etc. The app displays a list of pokemon where you can view more details for that pokemon by clicking on a list item.
+               </p>
+               <p>Technologies Used: HTML, CSS, Bootstrap, Javascript, Pokemon API.</p>
+               <a href="https://github.com/nehakhan77/simple-js-app" target="_blank" class="button">See project on GitHub</a>
+               <a href="https://nehakhan77.github.io/simple-js-app/" target="_blank" class="button">Live Site</a>
+           </div>
+
+           <div class="grid_item">
+               <h2>MyFlix Client: React</h2>
+               <div class="project_thumbnail">
+                   <img src="img/myflixclient-react.png" alt="Image of PokeDex App UI">
+               </div>
+               <p>
+                   MyFlix is a client side application built on React and based on an existing server-side code (REST API and database). The application allows users to view a catalog of movies, create and update a user profile, create a list of favorite movies, and deactive their account.
+               </p>
+               <p>Technologies Used: React, Redux, Bootstrap, Parcel. </p>
+               <a href="https://github.com/nehakhan77/myflix-Client" target="_blank" class="button">See project on GitHub</a>
+               <a href="https://myflix-nehakhan77.netlify.app/login" target="_blank" class="button">Live Site</a>
+           </div>
+
+           <div class="grid_item">
+               <h2>MyFlix Client: Angular</h2>
+               <div class="project_thumbnail">
+                   <img src="img/myflixclient-angular.png" alt="Image of PokeDex App UI">
+               </div>
+               <p>
+                   MyFlixMovies is a single page, responsive app, with multiple interfaces that allow users to discover their new favorite movies! The application includes the client-side which is built on Angular, and an exisiting server-side code (REST API and Database).
+               </p>
+               <p>Technologies Used: Angular, Angular Material. </p>
+               <a href="https://github.com/nehakhan77/myflix-angular-client" target="_blank" class="button">See project on GitHub</a>
+               <a href="https://nehakhan77.github.io/myflix-angular-client/welcome" target="_blank" class="button">Live Site</a>
+           </div>
+
+           <div class="grid_item">
+               <h2>Chat App: React Native</h2>
+               <div class="project_thumbnail">
+                   <img src="img/chat-app.png" alt="Image of PokeDex App UI">
+               </div>
+               <p>
+                   The Chat App is React Native mobile chat application that allows users to instantly message their friends, share their current location, share images from their library or camera, send audio recordings and access their previous conversations when offline.
+               </p>
+               <p>Technologies Used: React Native, Gifted Chat Library, Expo, Google Firestore Database, Google Firestore Authentication.</p>
+               <a href="https://github.com/nehakhan77/chat" target="_blank" class="button">See project on GitHub</a>
+           </div>
+
+           <div class="grid_item">
+               <h2>MyFlix API</h2>
+               <div class="project_thumbnail">
+                   <img src="img/movie-api.png" alt="Image of PokeDex App UI">
+               </div>
+               <p>
+                   The MyFlix API is the server-side component to the MyFlix movies application. It is a well-designed REST API and
+                   architected database built using JavaScript, Node.js, Express, and MongoDB. 
+               </p>
+               <p>Technologies Used: Javascript, Node.js, Heroku, Express, MongoDB, REST API, JWT Authentication, Data Validation.</p>
+               <a href="https://github.com/nehakhan77/chat" target="_blank" class="button">See project on GitHub</a>
+           </div>
+       </div>
+   </section>
+   <section id="background">
+      <div class="professional_background" data-aos="fade-right">
+            <h1>Educational and Professional Background</h1>
+               <h3>Greetings, I am developer based in New York City. I graduated CUNY Baruch
+                  College with a Bachelor's Degree in Communication. My passion for building web applications derives my problem-solving mindset, determination to create 
+                  innovative and concise code, and to create a positive web experience for all users.
+                  <p>Here are a few technologies I've been working with recently:
+                     <ul class="technology-list">
+                         <li>JavaScript (ES6)</li>
+                         <li>SCSS</li>
+                         <li>Node.js </li>
+                         <li>Express</li>
+                     </ul>
+                  </p> 
+               </h3>
+      </div>
+      <img src="img/nyc-bridge.jpg" class="newyork_image" width="150" height="50" alt="Picture of New York City skyline"> 
+   </section>
+   <section id="contact">
+      <div class="contact-info" data-aos="fade-left">
+         <div class="neha-info">
+            <h1>Contact Me</h1>
+            Neha Khan
+            <br>
+            <a href="tel:15162057753">Phone No:+1-516-205-7753</a>
+            <br>
+            <a href="mailto:nehakhann71@gmail.com">Email: nehakhann71@gmail.com</a>
+            <br>
+            <a href="mailto:nehakhann71@gmail.com">Contact me</a>
+         </div>
+         <div class="contact-form">
+            <form method="post" class="contact-form">
+               <label class="standard-label form__elements" for="contact-email">First Name:</label>
+               <input type="text" class="contact-input" placeholder="Adam" required>
+
+               <label class="standard-label form__elements" for="contact-email">Last Name:</label>
+               <input type="text" class="contact-input" placeholder="Smith"  required>
+
+               <label class="standard-label form__elements" for="contact-email">Email:</label>
+               <input type="email" class="contact-input" placeholder="AdamSmith@gmail.com" required>
+
+               <label class="standard-label form__elements" for="contact-telephone">Telephone:</label>
+               <input type="tel" class="contact-input" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="111-123-1234">
+
+               <label class="standard-label form__elements" for="my-input">Message: </label>
+               <textarea maxlength="240" class="contact-input" placeholder="Enter a brief message here" required></textarea>
+               <br>
+               <input type="submit" class="submit-button" value="Submit">
+            </form>
+         </div>
+      </div>
+   </section>
+   <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+         <a href="https://github.com/nehakhan77" target="_blank"><img class="social_media_icon" src="img/github_icon.svg" alt="Github"></a>
+         <a href="https://x.com/nayyyyk4" target="_blank"><img class="social_media_icon" src="img/twitter_icon.svg" alt="Twitter"></a>
+         <a href="https://www.linkedin.com/in/nehakhan1/" target="_blank"><img class="social_media_icon" src="img/linkedin_icon.svg" alt="Linkedin"></a>
+      </div>
+   </footer>
+   <script src="js/tota11y.min.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init({
+      duration: 1200,
+     });
+   </script>
+</body>
+</html>
