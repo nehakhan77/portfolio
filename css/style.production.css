@@ -86,6 +86,10 @@ p {
     margin-right: 50px;
 }   
 
+.name span {
+    color: lightcoral;
+}
+
 .about-section {
     max-width: 700px;
     margin: 0 auto;
