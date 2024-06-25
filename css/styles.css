@@ -89,6 +89,10 @@ body {
   margin-right: 50px;
 }  
 
+.name span {
+  color: lightcoral;
+}
+
 #portfolio {
   height: 100%;
   max-width: 80%;
@@ -143,6 +147,8 @@ body {
       margin: 1em 1em 0 0;
 }
 
+a.button:hover,
+a.button,
 a:visited,
 a:hover,
 a:focus,
@@ -151,6 +157,17 @@ a:active {
   font-weight: bold;
   border: 2px solid rgba(255, 123, 0, 0.569);
   list-style: none;
+}
+
+a.button:hover {
+  transform: scale(1.1);
+}
+
+a.navigation-list__item,
+a.navigation-list__item--active {
+    color: lightcoral;
+    font-weight: bold;
+    list-style: none;
 }
 
 .button {
