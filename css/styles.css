@@ -323,7 +323,8 @@ padding: 0 5px;
       grid-gap: 10px;
   }
 
-  .profile {
+  .profile,
+  .contact-form {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
