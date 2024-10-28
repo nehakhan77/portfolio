@@ -20,13 +20,13 @@ body {
 
 .page-header {
   display: flex;
-  width: 100%;
-  padding: 20px;
+  align-items: center;
   background-color: white;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .page-header__item {
-  flex: 0 1 200px;
+  flex: 0 1 200px; /* Base width for larger screens */
 }
 
 .page-header__item:last-child {
@@ -34,9 +34,9 @@ body {
   text-align: right;
 }
 
-.page-header__logo {
-  width: 120px;
-  height: 100px;
+.page-header__logo img {
+  width: 40vw;
+  height: auto;
 }
 
 .navigation-list {
@@ -208,6 +208,7 @@ p {
   display: block;
 }
  
+/* Contact Page */
 #contact {
   height: 60vh;
   max-width: 80%;
@@ -317,61 +318,14 @@ padding: 0 5px;
 
 
 @media all and (max-width: 500px) {
-  .project-list {
-      -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-      grid-gap: 10px;
+  #contact {
+    padding: 10px;
   }
 
-  .profile,
-  .contact-form {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
+  .contact {
+    margin: 0 0;
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
-  .project-list {
-      -ms-grid-columns: 1fr 10px 1fr;
-      grid-template-columns: 1fr 1fr;
-  }
 
-}
 
-@media all and (max-width: 750px) {
-  .project-list {
-      gap: 10px;
-  }
-
-  .project-list_item:last-child {
-      grid-column: auto / auto;
-      grid-row: auto / auto;
-  }
-
-  h1 {
-      font-size: 24px;
-      text-align: center;
-      font-weight: bold;
-  }
-}
-
-@media all and (min-width: 1400px) {
-  .project-list {
-      margin: 0 200px;
-      gap: 25px;
-  }
-}
-
-@media all and (min-width: 1800px) {
-  .project-list {
-      margin: 0 400px;
-  }
-}
