@@ -9,4 +9,4 @@ Users can also take a look at my professional and educational background, and a 
 
 ## Link to live page
 
-https://nehakhan77.github.io/myfirstwebsite-copy/
+https://nehakhan77.github.io/portfolio/
